@@ -82,7 +82,17 @@ h2{
 }
 
 #intro{
-	background:url(images/firstBG.jpg) 50% 0 no-repeat fixed;
+	/*background:url(images/firstBG.jpg) 50% 0 no-repeat fixed;*/
+	background-image: url('images/firstBG.jpg');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 0px;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-size: auto auto;
+
+
 	color: white;
 	height: 600px;
 	margin: 0 auto;
